@@ -11,6 +11,8 @@ group :development, :test do
   gem 'guard-spork', '1.2.0'
   gem 'spork', '0.9.2'
   gem 'annotate'
+  gem 'execjs'
+  gem 'therubyracer'
 end
 
 # Gems used only for assets and not required
