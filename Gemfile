@@ -3,7 +3,10 @@ source 'http://ruby.taobao.org'
 gem 'rails', '3.2.12'
 gem 'bootstrap-sass', '2.0.4'
 gem 'bcrypt-ruby'
-gem "flat-ui-rails"
+gem 'flat-ui-rails'
+gem 'faker'  #可以使用办真实的名字和 Email 地址创建示例用户。
+gem 'will_paginate' #实现分页
+gem 'bootstrap-will_paginate' #设置 will_paginate 使用 Bootstrap 中的分页样式
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
