@@ -7,7 +7,7 @@ gem 'flat-ui-rails'
 gem 'faker'  #可以使用办真实的名字和 Email 地址创建示例用户。
 gem 'will_paginate' #实现分页
 gem 'bootstrap-will_paginate' #设置 will_paginate 使用 Bootstrap 中的分页样式
-
+gem 'slim'
 group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.11.0'
@@ -17,6 +17,7 @@ group :development, :test do
   gem 'annotate'
   gem 'execjs'
   gem 'therubyracer'
+  gem 'slim-rails'
 end
 
 # Gems used only for assets and not required
