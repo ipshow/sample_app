@@ -34,4 +34,9 @@ SampleApp::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+  
+  # disble assets 请求日志
+  config.assets.logger = false
+
 end
+
